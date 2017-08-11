@@ -66,7 +66,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
 	background: rgba(62, 212, 255, 0.5);
-	border-color: #01b1d7 !important;
+	border-color: #329932 !important;
 	outline: none;
 	color: #333;
 }
@@ -114,7 +114,8 @@ textarea:focus {
 	;
 	color: #333;
 	line-height: 40px;
-	border-bottom: 1px solid #01b1d7;
+	border-bottom: 1px solid #329932
+;
 }
 
 /*Top left Menu*/
@@ -133,7 +134,8 @@ textarea:focus {
 }
 
 .top-left a:hover {
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 /*Top Right Menu*/
@@ -145,7 +147,8 @@ textarea:focus {
 	content: "\f041";
 	font-family: 'FontAwesome';
 	font-size: 16px;
-	color: #01b1d7;
+	color: #329932
+;
 	margin-right: 10px;
 }
 
@@ -185,12 +188,14 @@ textarea:focus {
 }
 
 #main-nav .navbar-header a {
-	background-color: #01b1d7;
+	background-color: #329932
+;
 	color: #fff;
 }
 /*Toggle Menu*/
 #main-nav .navbar-toggle {
-	background-color: #01b1d7;
+	background-color: #329932
+;
 }
 
 #main-nav .navbar-toggle span {
@@ -213,14 +218,16 @@ textarea:focus {
 }
 
 #main-nav .navbar-right li > a:focus {
-	color: #01b1d7;
+	color: #329932
+;
     background: none;
     outline: none;
 }
 
 #main-nav .navbar-nav>li>a:hover,
 #main-nav .navbar-nav>li.active>a {
-	color: #01b1d7;
+	color: #329932
+;
     background: none;
 }
 
@@ -282,7 +289,8 @@ textarea:focus {
 
 #slider .caption span {
 	padding: 0 10px;
-	background-color: #01b1d7;
+	background-color: #329932
+;
 	color: #fff;
 }
 
@@ -292,7 +300,8 @@ textarea:focus {
 	font-size: 24px;
 	font-style: italic;
 	margin-top: 30px;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #slider .caption button {
@@ -300,16 +309,19 @@ textarea:focus {
 	font-weight: 700;
 	font-size: 17px;
 	margin-top: 20px;
-	background-color: #01b1d7;
+	background-color: #329932
+;
 	color: #fff;
 	border: 1px solid #fff;
 }
 
 #slider .caption button:hover {
 	background-color: #fff;
-    border: 1px solid #01b1d7;
+    border: 1px solid #329932
+;
     transition: 0.3s;
-    color: #01b1d7;
+    color: #329932
+;
 }
 
 
@@ -330,7 +342,8 @@ textarea:focus {
 		font-style: italic;
 		margin: 0;
 		padding: 0;
-		color: #01b1d7;
+		color: #329932
+;
 	}
 
 	#slider .caption .btn {
@@ -358,7 +371,8 @@ textarea:focus {
 		font-size: 16px;
 		font-style: italic;
 		margin-top: 15px;
-		color: #01b1d7;
+		color: #329932
+;
 	}
 
 	#slider .caption .btn {
@@ -387,15 +401,18 @@ textarea:focus {
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	border: 1px solid #01b1d7;
+	border: 1px solid #329932
+;
 }
 
 #slider .flex-control-paging li a:hover {
-	background: #01b1d7;
+	background: #329932
+;
 }
 
 #slider .flex-control-paging li a.flex-active {
-	background: #01b1d7;
+	background: #329932
+;
 	width: 12px;
 	height: 12px;
 }
@@ -456,7 +473,8 @@ textarea:focus {
 	font-size: 45px;
 	padding: 65px 30px 0 0;
 	float: left;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #about .about-right-wrapper {
@@ -473,7 +491,8 @@ textarea:focus {
 }
 
 #about .about-right-wrapper a:hover {
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #about .about-right-wrapper p {
@@ -488,7 +507,8 @@ textarea:focus {
 	font-size: 45px;
 	padding: 65px 30px 0 0;
 	float: left;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #about .about-right-support:before {
@@ -497,7 +517,8 @@ textarea:focus {
 	font-size: 45px;
 	padding: 65px 30px 0 0;
 	float: left;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 /*Media*/
@@ -697,7 +718,8 @@ textarea:focus {
 	margin-right: 20px;
 	text-align: center;
 	float: left;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #about-bg .about-bg-wrapper p {
@@ -795,7 +817,8 @@ textarea:focus {
 	font-size: 36px;
 	margin-bottom: 15px;
 	line-height: 1px;
-	color: #01b1d7;	
+	color: #329932
+;	
 }
 
 .services-style-one .services-column h4 {
@@ -830,7 +853,8 @@ textarea:focus {
 }
 
 .services-style-one .content-column .sec-title h2 > span {
-	border-bottom: 2px solid #01b1d7;
+	border-bottom: 2px solid #329932
+;
 	padding-bottom: 5px;
 }
 
@@ -846,7 +870,8 @@ textarea:focus {
 }
 
 .inner-box button {
-	background-color: #01b1d7;
+	background-color: #329932
+;
 	width: 120px;
 	height: 35px;
 	color: #fff;
@@ -854,7 +879,8 @@ textarea:focus {
 
 .inner-box button:hover {
 	background-color: #fff;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 /*Service Footer*/
@@ -871,7 +897,8 @@ textarea:focus {
 }
 
 #service .service-footer-left h3 > span {
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #service .service-footer-left p {
@@ -885,7 +912,8 @@ textarea:focus {
 }
 
 #service .service-footer-right button {
-	background-color: #01b1d7;
+	background-color: #329932
+;
 	width: 180px;
 	height: 50px;
 	color: #fff;
@@ -893,7 +921,8 @@ textarea:focus {
 
 #service .service-footer-right button:hover {
 	background-color: #fff;
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 /*Media*/
@@ -991,7 +1020,8 @@ textarea:focus {
 	height: 45px;
 	line-height: 45px;
 	text-align: center;
-	color: #01b1d7;
+	color: #329932
+;
 	background-color: #fff;
 	position: absolute;
 	top: 45%;
@@ -1147,11 +1177,13 @@ textarea:focus {
 	margin-top: 25px;
 	background-color: transparent;
 	color: #7e7e7e;
-	border-color: #01b1d7;
+	border-color: #329932
+;
 }
 
 #get-touch .content .form .submit .btn:hover {
-	background-color: #01b1d7;
+	background-color: #329932
+;
 	color: #fff;
 }
 
@@ -1231,7 +1263,8 @@ textarea:focus {
 }
 
 #footer .footer-heading span {
-	border-bottom: 2px solid #01b1d7;
+	border-bottom: 2px solid #329932
+;
 	padding-bottom: 8px;
 }
 
@@ -1271,7 +1304,8 @@ textarea:focus {
 }
 
 #footer .footer-heading ul > li > a:hover {
-	color: #01b1d7;
+	color: #329932
+;
 }
 
 #footer .insta img {
@@ -1296,6 +1330,7 @@ textarea:focus {
 }
 
 #bottom-footer .footer-right ul > li > a:hover {
-	color: #01b1d7;
+	color: #329932
+;
 }
 
