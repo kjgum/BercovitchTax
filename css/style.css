@@ -281,7 +281,13 @@ textarea:focus {
 }
 
 #slider .caption h2 {
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+
+
 	font-weight: 700;
 	font-size: 35px;
 	text-transform: uppercase;
