@@ -276,14 +276,14 @@ textarea:focus {
 /*Slider Caption*/
 #slider .caption {
 	position: absolute;
-	width: 600px;
+	width: 700px;
 	top: 50%;
 }
 
 #slider .caption h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	font-size: 48px;
+	font-size: 35px;
 	text-transform: uppercase;
 }
 
