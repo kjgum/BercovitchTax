@@ -281,10 +281,10 @@ textarea:focus {
 }
 
 #slider .caption h2 {
-	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 
 
-    font-family: 'Open Sans Condensed', sans-serif;
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
 
 
 
@@ -679,7 +679,7 @@ textarea:focus {
 }
 
 /*About bg*/
-#about-bg {
+#about-picture {
 	position: relative;
 	background-image: url(../images/about/about2.jpg);
     background-position: center;
