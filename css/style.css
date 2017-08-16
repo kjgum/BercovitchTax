@@ -459,6 +459,13 @@ textarea:focus {
     text-transform: uppercase;
 }
 
+#successes h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
 #about .about-heading p {
     margin-top: 20px;
     line-height: 25px;
@@ -797,26 +804,29 @@ textarea:focus {
 #service {
     margin-top: 100px;
     background-attachment: scroll;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    /*padding-bottom: 20px;*/
+    /*padding-top: 20px;*/
+    background-color: #F2F3F4;
+    padding: 20px;
+
 }
 
 #service .col-md-6 {
-    padding: 0;
+    /*padding: 0;*/
 }
 
 #service .service-heading {
     text-align: center;
 }
 
-#service .service-heading h2 {
+#service h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 45px;
     text-transform: uppercase;
 }
 
-#service .service-heading p {
+#service p {
     margin-top: 20px;
     line-height: 25px;
     color: #292929;
@@ -851,7 +861,7 @@ textarea:focus {
     padding: 80px 20px 40px 40px;
 }
 
-.services-style-one .services-column .icon-box {
+.icon-box {
     font-size: 36px;
     margin-bottom: 15px;
     line-height: 1px;
