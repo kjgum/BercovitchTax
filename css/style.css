@@ -340,7 +340,7 @@ textarea:focus {
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
     #slider .caption {
-        position: absolute;
+        /*position: absolute;*/
         width: 400px;
         top: 55%;
     }
@@ -450,6 +450,7 @@ textarea:focus {
     line-height: 25px;
     color: #292929;
     margin-bottom: 50px;
+    /*font-size: 14px;*/
 }
 
 #about .about-left {
@@ -533,12 +534,14 @@ textarea:focus {
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
+    
+
     #about {
         padding: 0;
     }
 
     #about .about-heading h2 {
-        margin-top: 30px;
+        /*margin-top: 30px;*/
         font-size: 27px;
     }
 
