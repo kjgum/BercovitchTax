@@ -812,10 +812,34 @@ font-family: 'Julius Sans One', sans-serif;
     background-attachment: scroll;
     /*padding-bottom: 20px;*/
     /*padding-top: 20px;*/
-    background-color: #F2F3F4;
+    
+    background-color: #292929;
+    color: #f2f3f4;
     padding: 20px;
     padding-top: 40px;
 
+}
+
+#service2 {
+	background-color: #F2F3F4;
+}
+
+#service2 .service-heading {
+    text-align: center;
+}
+
+#service2 h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+#service2 p {
+    margin-top: 20px;
+    line-height: 25px;
+    color: #292929;
+    margin-bottom: 50px;
 }
 
 #service .col-md-6 {
@@ -911,7 +935,7 @@ font-family: 'Julius Sans One', sans-serif;
     padding-bottom: 5px;
 }
 
-h4>span {
+h3>span {
 	border-bottom: 2px solid #329932;
     padding-bottom: 8px;
 }
@@ -925,6 +949,7 @@ h4>span {
     margin: 30px 0;
     color: #999999;
     line-height: 25px;
+
 }
 
 .inner-box button {
