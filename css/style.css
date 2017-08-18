@@ -911,6 +911,11 @@ font-family: 'Julius Sans One', sans-serif;
     padding-bottom: 5px;
 }
 
+h4>span {
+	border-bottom: 2px solid #329932;
+    padding-bottom: 8px;
+}
+
 .services-style-one .content-column .inner-box {
     position: relative;
 }
