@@ -8,6 +8,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 a {
@@ -484,27 +485,23 @@ f .top-right p:before {
     padding: 80px;
 }
 
-#about .about-heading {
+.heading {
     /*text-align: center;*/
 }
 
-#about .about-heading h2 {
-    /*font-family: 'Josefin Sans', sans-serif;*/
+.heading h2 {
     font-weight: 700;
     font-size: 45px;
     text-transform: uppercase;
-    font-family: 'Julius Sans One', sans-serif;
 }
 
 #successes h2 {
-    /*font-family: 'Josefin Sans', sans-serif;*/
-    font-family: 'Julius Sans One', sans-serif;
-    font-weight: 700;
+footer-heading    font-weight: 700;
     font-size: 45px;
     text-transform: uppercase;
 }
 
-#about .about-heading p {
+.heading p {
     margin-top: 20px;
     line-height: 25px;
     color: #292929;
@@ -512,84 +509,9 @@ f .top-right p:before {
     /*font-size: 14px;*/
 }
 
-#about .about-left {
-    position: relative;
-    z-index: 2;
+#service .text {
+	font-size: 13px;
 }
-
-#about .about-right:before {
-    content: "";
-    border: 8px solid #e5eef0;
-    width: 120%;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-#about .about-right {
-    position: relative;
-    padding: 0 80px 150px 80px;
-}
-
-#about .about-right-heading h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-top: 100px;
-    text-transform: uppercase;
-}
-
-#about .about-right-boot:before {
-    content: "\f080";
-    font-family: 'FontAwesome';
-    font-size: 45px;
-    padding: 65px 30px 0 0;
-    float: left;
-    color: #FD9331;
-}
-
-#about .about-right-wrapper {
-    padding-left: 0 0 50px 78px;
-    position: relative;
-    left: 0;
-    top: 75px;
-}
-
-#about .about-right-wrapper a {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    color: #282828;
-}
-
-#about .about-right-wrapper a:hover {
-    color: #FD9331;
-}
-
-#about .about-right-wrapper p {
-    line-height: 28px;
-    margin-top: 20px;
-    color: #292929;
-}
-
-#about .about-right-best:before {
-    content: "\f201";
-    font-family: 'FontAwesome';
-    font-size: 45px;
-    padding: 65px 30px 0 0;
-    float: left;
-    color: #FD9331;
-}
-
-#about .about-right-support:before {
-    content: "\f025";
-    font-family: 'FontAwesome';
-    font-size: 45px;
-    padding: 65px 30px 0 0;
-    float: left;
-    color: #FD9331;
-}
-
-
 
 
 /*Media*/
@@ -597,77 +519,32 @@ f .top-right p:before {
 @media screen and (min-width: 320px) and (max-width: 520px) {
 
 
+	body {
+		font-size: 12px;
+	}
+
+.icon-box{
+	font-size: 20px;
+}
+
     #about {
         padding: 0;
     }
 
-    #about .about-heading h2 {
+    .heading h2 {
         /*margin-top: 30px;*/
         font-size: 27px;
     }
 
-    #about .about-heading p {
+   .heading p {
         margin-top: 20px;
         font-size: 12px;
         line-height: 20px;
     }
 
-    #about .about-right:before {
-        content: "";
-        border: 8px solid #e5eef0;
-        width: 100%;
-        height: 100%;
-    }
 
-    #about .about-right {
-        position: relative;
-        padding: 30px;
-        margin-top: 20px;
-    }
 
-    #about .about-right-heading h1 {
-        padding-top: 20px;
-        font-size: 25px;
-        text-align: center;
-    }
 
-    #about .about-right-boot:before {
-        font-size: 30px;
-        padding: 20px 20px 0 0;
-    }
-
-    #about .about-right-wrapper {
-        position: relative;
-        left: 0;
-        top: 35px;
-    }
-
-    #about .about-right-wrapper a>h3 {
-        font-size: 20px;
-    }
-
-    #about .about-right-wrapper p {
-        margin-top: 20px;
-        font-size: 13px;
-    }
-
-    #about .about-right-best {
-        margin-top: 40px;
-    }
-
-    #about .about-right-best:before {
-        font-size: 30px;
-        padding: 20px 20px 0 0;
-    }
-
-    #about .about-right-support {
-        margin-top: 40px;
-    }
-
-    #about .about-right-support:before {
-        font-size: 30px;
-        padding: 20px 20px 0 0;
-    }
 }
 
 
@@ -679,7 +556,19 @@ f .top-right p:before {
     }
        .hideMe{
     	display: flex;
+    }
 
+    a {
+    	color: #292929;
+    }
+
+    .footSpan{
+    	text-transform: uppercase;
+    	padding-top: 10px;
+    }
+
+    .spacePlease {
+    	padding-top: 20px;
     }
 }
 
@@ -699,72 +588,18 @@ f .top-right p:before {
 
 
 
-    #about .about-heading h2 {
+
+    .heading h2 {
         margin-top: 30px;
         font-size: 30px;
     }
 
-    #about .about-heading p {
+    .heading p {
         margin-top: 20px;
         line-height: 20px;
     }
 
-    #about .about-right:before {
-        content: "";
-        border: 8px solid #e5eef0;
-        width: 100%;
-        height: 100%;
-    }
-
-    #about .about-right {
-        position: relative;
-        padding: 30px;
-        margin-top: 20px;
-    }
-
-    #about .about-right-heading h1 {
-        padding-top: 20px;
-        font-size: 25px;
-        /*text-align: center;*/
-    }
-
-    #about .about-right-boot:before {
-        font-size: 30px;
-        padding: 20px 20px 0 0;
-    }
-
-    #about .about-right-wrapper {
-        position: relative;
-        left: 0;
-        top: 35px;
-    }
-
-    #about .about-right-wrapper a>h3 {
-        font-size: 20px;
-    }
-
-    #about .about-right-wrapper p {
-        margin-top: 20px;
-        font-size: 13px;
-    }
-
-    #about .about-right-best {
-        margin-top: 40px;
-    }
-
-    #about .about-right-best:before {
-        font-size: 30px;
-        padding: 20px 20px 0 0;
-    }
-
-    #about .about-right-support {
-        margin-top: 40px;
-    }
-
-    #about .about-right-support:before {
-        font-size: 30px;
-        padding: 20px 20px 0 0;
-    }
+   
 }
 
 
@@ -883,7 +718,7 @@ f .top-right p:before {
 }
 
 #service2 h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     font-weight: 700;
     font-size: 45px;
     text-transform: uppercase;
@@ -905,7 +740,7 @@ f .top-right p:before {
 }
 
 #service h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     font-weight: 700;
     font-size: 45px;
     text-transform: uppercase;
@@ -1107,92 +942,6 @@ h3>span {
 
 /*Portfolio*/
 
-#portfolio {
-    margin-top: 100px;
-}
-
-#portfolio .portfolio-heading {
-    text-align: center;
-}
-
-#portfolio .portfolio-heading h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-#portfolio .portfolio-heading p {
-    margin-top: 20px;
-    line-height: 25px;
-    color: #292929;
-    margin-bottom: 50px;
-}
-
-#portfolio .portfolio-thumbnail {
-    position: relative;
-}
-
-#portfolio .portfolio-thumbnail img {
-    width: 100%;
-    height: auto;
-}
-
-#portfolio .portfolio-thumbnail .col-md-3 {
-    padding: 0;
-}
-
-#portfolio .portfolio-thumbnail .caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(62, 212, 255, 0.7);
-    opacity: 0;
-    -moz-transition: opacity linear .3s;
-    -webkit-transition: opacity linear .3s;
-    -o-transition: opacity linear .3s;
-    transition: opacity linear .3s;
-    padding: 0;
-    margin: 0;
-}
-
-#portfolio .portfolio-thumbnail .item:hover>.caption {
-    opacity: 1;
-}
-
-#portfolio .caption i {
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    color: #FD9331;
-    background-color: #fff;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    margin-top: -22px;
-    margin-left: -22px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-
-#portfolio .caption p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    color: #fff;
-    position: absolute;
-    font-size: 15px;
-    text-transform: capitalize;
-    top: 55%;
-    left: 30%;
-    right: 30%;
-}
-
-
 
 
 /*Media*/
@@ -1291,61 +1040,6 @@ h3>span {
 
 
 /*Get In Touch*/
-
-#get-touch {
-    margin-top: 100px;
-}
-
-#get-touch .get-touch-heading {
-    text-align: center;
-}
-
-#get-touch .get-touch-heading h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
-}
-
-#get-touch .get-touch-heading p {
-    margin-top: 20px;
-    line-height: 25px;
-    color: #292929;
-    margin-bottom: 50px;
-}
-
-#get-touch .content {
-    margin-top: 50px;
-}
-
-#get-touch .content .form input {
-    height: 50px;
-    width: 100%;
-    border-color: #ebebeb;
-}
-
-#get-touch .content .form textarea {
-    width: 100%;
-    height: 180px;
-    border-color: #ebebeb;
-    margin-top: 20px;
-}
-
-#get-touch .content .form .submit {
-    text-align: center;
-}
-
-#get-touch .content .form .submit .btn {
-    margin-top: 25px;
-    background-color: transparent;
-    color: #7e7e7e;
-    border-color: #FD9331;
-}
-
-#get-touch .content .form .submit .btn:hover {
-    background-color: #FD9331;
-    color: #fff;
-}
 
 
 
