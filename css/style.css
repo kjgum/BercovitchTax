@@ -225,6 +225,7 @@ f .top-right p:before {
 
 #main-nav .navbar-toggle {
     background-color: #FD9331;
+    color: #292929;
 }
 
 #main-nav .navbar-toggle span {
