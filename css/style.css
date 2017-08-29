@@ -195,6 +195,10 @@ textarea:focus {
     transition: all 0.3s;
 }
 
+#main-nav.affix img {
+	height: 20px;
+}
+
 .navbar {
     margin: 0;
 }
@@ -203,6 +207,7 @@ textarea:focus {
     /*background-color: #FD9331;*/
     color: #fff;
     font-size: 20px;
+    height: 40px;
 
 font-family: 'Julius Sans One', sans-serif;
 
@@ -222,7 +227,9 @@ font-family: 'Julius Sans One', sans-serif;
     background-color: #fff;
 }
 
-
+.navbar-header img {
+	height:40px; 
+}
 
 /*Main Menu*/
 
@@ -363,6 +370,10 @@ font-family: 'Julius Sans One', sans-serif;
         padding-left: 0px;
         margin-left: 0px;
     }
+
+    .navbar-header img {
+	height:20px; 
+}
 
     #slider .caption h2 {
         font-size: 15px;
