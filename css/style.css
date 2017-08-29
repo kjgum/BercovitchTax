@@ -7,6 +7,7 @@ body {
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 
 a {
@@ -104,6 +105,7 @@ textarea:focus {
 
 
 
+
 /*Header*/
 
 
@@ -115,6 +117,7 @@ textarea:focus {
     line-height: 40px;
     border-bottom: 1px solid #FD9331;
 }
+
 
 
 
@@ -140,13 +143,14 @@ textarea:focus {
 
 
 
+
 /*Top Right Menu*/
 
 .top-right {
     float: right;
-}f
+}
 
-.top-right p:before {
+f .top-right p:before {
     content: "\f041";
     font-family: 'FontAwesome';
     font-size: 16px;
@@ -155,7 +159,7 @@ textarea:focus {
 }
 
 .top-right a {
-	color: black;
+    color: black;
 }
 
 .top-right p {
@@ -172,11 +176,13 @@ textarea:focus {
 
 
 
+
 /*Nagivation*/
 
 #main-nav {
     padding: 15px 0;
 }
+
 
 
 
@@ -196,7 +202,7 @@ textarea:focus {
 }
 
 #main-nav.affix img {
-	height: 20px;
+    height: 20px;
 }
 
 .navbar {
@@ -209,11 +215,9 @@ textarea:focus {
     font-size: 20px;
     height: 40px;
 
-font-family: 'Julius Sans One', sans-serif;
-
-
-
+    font-family: 'Julius Sans One', sans-serif;
 }
+
 
 
 
@@ -228,8 +232,9 @@ font-family: 'Julius Sans One', sans-serif;
 }
 
 .navbar-header img {
-	height:40px; 
+    height: 40px;
 }
+
 
 /*Main Menu*/
 
@@ -259,6 +264,7 @@ font-family: 'Julius Sans One', sans-serif;
     color: #FD9331;
     background: none;
 }
+
 
 
 
@@ -292,6 +298,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*Main Slider*/
 
 #slider {
@@ -305,6 +312,7 @@ font-family: 'Julius Sans One', sans-serif;
 }
 
 #slider.flexslider .slides>li img {}
+
 
 
 
@@ -359,6 +367,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -372,8 +381,8 @@ font-family: 'Julius Sans One', sans-serif;
     }
 
     .navbar-header img {
-	height:20px; 
-}
+        height: 20px;
+    }
 
 
 
@@ -400,6 +409,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 521px) and (max-width: 980px) {
@@ -408,6 +418,8 @@ font-family: 'Julius Sans One', sans-serif;
         width: 450px;
         top: 50%;
     }
+
+
 
     #slider .caption h2 {
         font-size: 24px;
@@ -427,6 +439,7 @@ font-family: 'Julius Sans One', sans-serif;
         margin-top: 15px;
     }
 }
+
 
 
 
@@ -463,6 +476,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*About*/
 
 #about {
@@ -470,7 +484,7 @@ font-family: 'Julius Sans One', sans-serif;
 }
 
 #about .about-heading {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #about .about-heading h2 {
@@ -576,6 +590,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -656,6 +671,23 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
+@media only screen and (max-width: 500px) {
+    #slider .caption h2 {
+        display: none;
+    }
+       .hideMe{
+    	display: flex;
+
+    }
+}
+
+@media screen and (min-width: 501px) {
+
+    .hideMe{
+    	display: none;
+    }
+
 /*Media*/
 
 @media screen and (min-width: 521px) and (max-width: 980px) {
@@ -663,6 +695,8 @@ font-family: 'Julius Sans One', sans-serif;
         margin-top: 50px;
         padding: 0;
     }
+
+
 
     #about .about-heading h2 {
         margin-top: 30px;
@@ -690,7 +724,7 @@ font-family: 'Julius Sans One', sans-serif;
     #about .about-right-heading h1 {
         padding-top: 20px;
         font-size: 25px;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     #about .about-right-boot:before {
@@ -734,6 +768,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*About bg*/
 
 #about-picture {
@@ -751,7 +786,7 @@ font-family: 'Julius Sans One', sans-serif;
 .about-bg-heading {
     font-family: 'Josefin', sans-serif;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
     line-height: 40px;
     z-index: -2;
 }
@@ -794,6 +829,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -805,6 +841,7 @@ font-family: 'Julius Sans One', sans-serif;
         margin-left: 25%;
     }
 }
+
 
 
 
@@ -822,6 +859,7 @@ font-family: 'Julius Sans One', sans-serif;
 
 
 
+
 /*Service*/
 
 #service {
@@ -829,16 +867,14 @@ font-family: 'Julius Sans One', sans-serif;
     background-attachment: scroll;
     /*padding-bottom: 20px;*/
     /*padding-top: 20px;*/
-    
     background-color: #292929;
     color: #f2f3f4;
     padding: 20px;
     padding-top: 40px;
-
 }
 
 #service2 {
-	background-color: #F2F3F4;
+    background-color: #F2F3F4;
 }
 
 #service2 .service-heading {
@@ -953,7 +989,7 @@ font-family: 'Julius Sans One', sans-serif;
 }
 
 h3>span {
-	border-bottom: 2px solid #FD9331;
+    border-bottom: 2px solid #FD9331;
     padding-bottom: 8px;
 }
 
@@ -966,7 +1002,6 @@ h3>span {
     margin: 30px 0;
     color: #999999;
     line-height: 25px;
-
 }
 
 .inner-box button {
@@ -980,6 +1015,7 @@ h3>span {
     background-color: #fff;
     color: #FD9331;
 }
+
 
 
 
@@ -1025,6 +1061,7 @@ h3>span {
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -1047,6 +1084,7 @@ h3>span {
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 521px) and (max-width: 980px) {
@@ -1062,6 +1100,7 @@ h3>span {
         padding: 200px 20px 100px 20px;
     }
 }
+
 
 
 
@@ -1154,6 +1193,7 @@ h3>span {
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -1172,6 +1212,7 @@ h3>span {
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 521px) and (max-width: 980px) {
@@ -1183,6 +1224,7 @@ h3>span {
         font-size: 30px;
     }
 }
+
 
 
 
@@ -1246,6 +1288,7 @@ h3>span {
 
 
 
+
 /*Get In Touch*/
 
 #get-touch {
@@ -1306,6 +1349,7 @@ h3>span {
 
 
 
+
 /*Map*/
 
 #google-map {
@@ -1313,6 +1357,7 @@ h3>span {
     margin-top: 10px;
     height: 400px;
 }
+
 
 
 
@@ -1340,6 +1385,7 @@ h3>span {
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 320px) and (max-width: 520px) {
@@ -1358,6 +1404,7 @@ h3>span {
 
 
 
+
 /*Media*/
 
 @media screen and (min-width: 521px) and (max-width: 980px) {
@@ -1369,6 +1416,7 @@ h3>span {
         font-size: 30px;
     }
 }
+
 
 
 
@@ -1448,6 +1496,7 @@ h3>span {
 
 
 
+
 /*Bottom Footer*/
 
 #bottom-footer {
@@ -1467,5 +1516,5 @@ h3>span {
 
 
 #get-touch a {
-	color: #292929;
+    color: #292929;
 }
