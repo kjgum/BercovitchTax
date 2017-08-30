@@ -62,7 +62,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
     background: rgba(62, 212, 255, 0.5);
-    border-color: #FD9331 !important;
+    border-color: #008e00 !important;
     outline: none;
     color: #333;
 }
@@ -116,7 +116,7 @@ textarea:focus {
     ;
     color: #333;
     line-height: 40px;
-    border-bottom: 1px solid #FD9331;
+    border-bottom: 1px solid #008e00;
 }
 
 
@@ -139,7 +139,7 @@ textarea:focus {
 }
 
 .top-left a:hover {
-    color: #FD9331;
+    color: #008e00;
 }
 
 
@@ -155,7 +155,7 @@ f .top-right p:before {
     content: "\f041";
     font-family: 'FontAwesome';
     font-size: 16px;
-    color: #FD9331;
+    color: #008e00;
     margin-right: 10px;
 }
 
@@ -211,7 +211,7 @@ f .top-right p:before {
 }
 
 #main-nav .navbar-header a {
-    /*background-color: #FD9331;*/
+    /*background-color: #008e00;*/
     color: #fff;
     font-size: 20px;
     height: 40px;
@@ -225,7 +225,7 @@ f .top-right p:before {
 /*Toggle Menu*/
 
 #main-nav .navbar-toggle {
-    background-color: #FD9331;
+    background-color: #008e00;
     color: #292929;
 }
 
@@ -256,14 +256,14 @@ f .top-right p:before {
 }
 
 #main-nav .navbar-right li>a:focus {
-    color: #FD9331;
+    color: #008e00;
     background: none;
     outline: none;
 }
 
 #main-nav .navbar-nav>li>a:hover,
 #main-nav .navbar-nav>li.active>a {
-    color: #FD9331;
+    color: #008e00;
     background: none;
 }
 
@@ -327,10 +327,11 @@ f .top-right p:before {
 }
 
 #slider .caption h2 {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
 
     /*font-weight: 700;*/
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 40px;
     /*text-transform: uppercase;*/
 }
 
@@ -345,29 +346,29 @@ f .top-right p:before {
 }
 
 #slider .caption p {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     font-weight: 700;
     font-size: 24px;
     font-style: italic;
     margin-top: 30px;
-    color: #FD9331;
+    color: #008e00;
 }
 
 #slider .caption button {
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     font-weight: 700;
     font-size: 17px;
     margin-top: 20px;
-    background-color: #FD9331;
+    background-color: #008e00;
     color: #fff;
     border: 1px solid #fff;
 }
 
 #slider .caption button:hover {
     background-color: #fff;
-    border: 1px solid #FD9331;
+    border: 1px solid #008e00;
     transition: 0.3s;
-    color: #FD9331;
+    color: #008e00;
 }
 
 
@@ -401,7 +402,7 @@ f .top-right p:before {
         font-style: italic;
         margin: 0;
         padding: 0;
-        color: #FD9331;
+        color: #008e00;
     }
 
     #slider .caption .btn {
@@ -435,7 +436,7 @@ f .top-right p:before {
         font-size: 16px;
         font-style: italic;
         margin-top: 15px;
-        color: #FD9331;
+        color: #008e00;
     }
 
     #slider .caption .btn {
@@ -467,15 +468,15 @@ f .top-right p:before {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 1px solid #FD9331;
+    border: 1px solid #008e00;
 }
 
 #slider .flex-control-paging li a:hover {
-    background: #FD9331;
+    background: #008e00;
 }
 
 #slider .flex-control-paging li a.flex-active {
-    background: #FD9331;
+    background: #008e00;
     width: 12px;
     height: 12px;
 }
@@ -656,7 +657,7 @@ footer-heading    font-weight: 700;
     margin-right: 20px;
     text-align: center;
     float: left;
-    color: #FD9331;
+    color: #008e00;
 }
 
 #about-bg .about-bg-wrapper p {
@@ -789,7 +790,7 @@ footer-heading    font-weight: 700;
     font-size: 36px;
     margin-bottom: 15px;
     line-height: 1px;
-    color: #FD9331;
+    color: #008e00;
 }
 
 .services-style-one .services-column h4 {
@@ -824,12 +825,12 @@ footer-heading    font-weight: 700;
 }
 
 .services-style-one .content-column .sec-title h2>span {
-    border-bottom: 2px solid #FD9331;
+    border-bottom: 2px solid #008e00;
     padding-bottom: 5px;
 }
 
 h3>span {
-    border-bottom: 2px solid #FD9331;
+    border-bottom: 2px solid #008e00;
     padding-bottom: 8px;
 }
 
@@ -845,7 +846,7 @@ h3>span {
 }
 
 .inner-box button {
-    background-color: #FD9331;
+    background-color: #008e00;
     width: 120px;
     height: 35px;
     color: #fff;
@@ -853,7 +854,7 @@ h3>span {
 
 .inner-box button:hover {
     background-color: #fff;
-    color: #FD9331;
+    color: #008e00;
 }
 
 
@@ -874,7 +875,7 @@ h3>span {
 }
 
 #service .service-footer-left h3>span {
-    color: #FD9331;
+    color: #008e00;
 }
 
 #service .service-footer-left p {
@@ -888,7 +889,7 @@ h3>span {
 }
 
 #service .service-footer-right button {
-    background-color: #FD9331;
+    background-color: #008e00;
     width: 180px;
     height: 50px;
     color: #fff;
@@ -896,7 +897,7 @@ h3>span {
 
 #service .service-footer-right button:hover {
     background-color: #fff;
-    color: #FD9331;
+    color: #008e00;
 }
 
 
@@ -1140,7 +1141,7 @@ h3>span {
 }
 
 #footer .footer-heading span {
-    border-bottom: 2px solid #FD9331;
+    border-bottom: 2px solid #008e00;
     padding-bottom: 8px;
 }
 
@@ -1180,7 +1181,7 @@ h3>span {
 }
 
 #footer .footer-heading ul>li>a:hover {
-    color: #FD9331;
+    color: #008e00;
 }
 
 #footer .insta img {
@@ -1209,7 +1210,7 @@ h3>span {
 }
 
 #bottom-footer .footer-right ul>li>a:hover {
-    color: #FD9331;
+    color: #008e00;
 }
 
 
