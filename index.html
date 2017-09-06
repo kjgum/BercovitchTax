@@ -130,10 +130,10 @@
                     <p class="text-left">
                         <div class="hideMe">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stephen J. Bercovitch is a highly regarded, practiced state and local tax attorney with both large public accounting firm and Fortune 500 corporate industry background.
                             <br/>
-                            <br/><br/>
+                            <br/>
+                            <br/>
                         </div>
-                        <br/>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The challenge of multiple and overlapping demands is presented by a dynamic state and local tax environment: state tax laws change frequently, many states have conflicting rules that can result in double taxation, technology is rapidly evolving and operations can inadvertently trigger tax nexus, and the states are becoming more sophisticated in their enforcement of laws. The job of a SALT specialist is to pro-actively develop return filing positions, mitigate risk, implement tax saving compliance procedures, and defend existing positions under audit. </br>
+                        <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The challenge of multiple and overlapping demands is presented by a dynamic state and local tax environment: state tax laws change frequently, many states have conflicting rules that can result in double taxation, technology is rapidly evolving and operations can inadvertently trigger tax nexus, and the states are becoming more sophisticated in their enforcement of laws. The job of a SALT specialist is to pro-actively develop return filing positions, mitigate risk, implement tax saving compliance procedures, and defend existing positions under audit. </br>
                         </br>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stephen has provided professional services and legal guidance to clients and their financial advisors for more than 30 years. His practice offers a model of leveraged assistance and expert support to both small and mid-size public accounting firms, law firms, high net worth individuals, as well as closely held companies in management of SALT issues. </br>
                         </br>
@@ -277,25 +277,107 @@
     <!--contact form-->
     <div id="get-touch">
         <div class="container">
-
             <div class="row">
-
-
-
                 <div class="col-md-6 col-md-offset-3">
-
-                <h2 class="text-center">CONTACT</h2>
-                <br/>
+                    <h2 class="text-center">CONTACT</h2>
+                    <br/>
                     <!-- <div class="form-wrapper"> -->
+                    <!--                 <form>
+                        <div class="form-group">
+                            <label class="sr-only" for="name">Name</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                </div>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="email">Email</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                </div>
+                                <input type="text" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="subject">Subject</label>
+                            <div class="input-group">
+                                <div class="input-group-addon">
+                                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                </div>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+                        </div>
+                        <div class="btn-group pull-right" role="group">
+    <button type="submit" class="btn btn-primary submit" style="background-color: #128D15;">
+        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Submit
+    </button>
+</div>
+                    </form> -->
+                    <!-- </div> -->
+                    <!-- <h2>Contact Us</h2> -->
+                    <form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
+                        <input name="skip_WhereToSend" type="hidden" value="kristin.gumbert@yahoo.com" />
+                        <input name="skip_SnapHostID" type="hidden" value="HJGZ23L33S4A" />
+                        <input name="skip_WhereToReturn" type="hidden" value="google.com" />
+                        <input name="skip_Subject" type="hidden" value="Contact Us Form" />
+                        <input name="skip_ShowUsersIp" type="hidden" value="1" />
+                        <input name="skip_SendCopyToUser" type="hidden" value="1" />
+                        <script type="text/javascript">
+                        function ValidateForm(frm) {
+                            if (frm.Name.value == "") {
+                                alert('Name is required.');
+                                frm.Name.focus();
+                                return false;
+                            }
+                            if (frm.FromEmailAddress.value == "") {
+                                alert('Email address is required.');
+                                frm.FromEmailAddress.focus();
+                                return false;
+                            }
+                            if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {
+                                alert('Please enter a valid email address.');
+                                frm.FromEmailAddress.focus();
+                                return false;
+                            }
+                            if (frm.Comments.value == "") {
+                                alert('Please enter comments or questions.');
+                                frm.Comments.focus();
+                                return false;
+                            }
+                            if (frm.skip_CaptchaCode.value == "") {
+                                alert('Enter web form code.');
+                                frm.skip_CaptchaCode.focus();
+                                return false;
+                            }
+                            return true;
+                        }
+
+                        function ReloadCaptchaImage(captchaImageId) {
+                            var obj = document.getElementById(captchaImageId);
+                            var src = '' + obj.src;
+                            obj.src = '';
+                            var date = new Date();
+                            var pos = src.indexOf('&rad=');
+                            if (pos >= 0) { src = src.substr(0, pos); }
+                            obj.src = src + '&rad=' + date.getTime();
+                            return false;
+                        }
+                        </script>
                         <form>
-                            
                             <div class="form-group">
                                 <label class="sr-only" for="name">Name</label>
                                 <div class="input-group">
                                     <div class="input-group-addon">
                                         <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                                     </div>
-                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                    <input name="Name" type="text" class="form-control" placeholder="Name">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -304,32 +386,42 @@
                                     <div class="input-group-addon">
                                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
                                     </div>
-                                    <input type="text" class="form-control" id="email" placeholder="Email">
+                                    <input name="FromEmailAddress" type="text" class="form-control" id="email" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="sr-only" for="subject">Subject</label>
+                                <label class="sr-only" for="email">Phone</label>
                                 <div class="input-group">
                                     <div class="input-group-addon">
-                                        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                        <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
                                     </div>
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input name="PhoneNumber" type="text" class="form-control" id="email" placeholder="Phone">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="message">Message</label>
-                                <textarea class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+                                <textarea name="Comments" class="form-control" id="message" rows="6" placeholder="Message"></textarea>
                             </div>
+                            <br />
+
+                            <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                            Enter code:
+                                    <input name="skip_CaptchaCode" type="text" style="width:80px;" maxlength="6" />
+                              
+                                    <img id="CaptchaImage" alt="Contact Us form" title="HTML code for Contact Us form" style="margin-left:20px;" src="http://www.SnapHost.com/captcha/CaptchaImage.aspx?id=HJGZ23L33S4A&ImgType=2" />
+                                    <br />
+                                    <div class="text-right">
+                                    <a href="#" onclick="return ReloadCaptchaImage('CaptchaImage');"><span style="font-size:10px;">reload image&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a> </div>
+                          </div>
+                          </div>
+                            
                             <div class="btn-group pull-right" role="group">
-                                <!-- <button type="reset" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Reset
-                                </button> -->
-                                <button type="submit" class="btn btn-primary submit" style="background-color: #128D15;">
+                                <button name="skip_Submit" type="submit" class="btn btn-primary submit" style="background-color: #128D15;">
                                     <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Submit
                                 </button>
                             </div>
                         </form>
-                    <!-- </div> -->
                 </div>
             </div>
             <br/>
