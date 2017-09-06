@@ -329,7 +329,7 @@ f .top-right p:before {
 #slider .caption {
     position: absolute;
     width: 750px;
-    top: 50%;
+    top: 80%;
 }
 
 #slider .caption h2 {
@@ -344,9 +344,13 @@ f .top-right p:before {
 #slider .caption span {
     padding:  0 10px;
     /*margin:15px;*/
-    background-color: #292929;
-    color: #fff;
-    opacity: .9;
+    /*background-color: #292929;*/
+    /*color: #fff;*/
+    /*color: #292929;*/
+
+    text-shadow: 2px 2px #292929;
+
+    /*opacity: .9;*/
     /*color: #292929;*/
     /*font-weight: bold;*/
 }
@@ -357,7 +361,7 @@ f .top-right p:before {
     font-size: 24px;
     font-style: italic;
     margin-top: 30px;
-    color: #008e00;
+    /*color: #008e00;*/
 }
 
 #slider .caption button {
@@ -588,6 +592,7 @@ footer-heading    font-weight: 700;
     .hideMe{
     	display: none;
     }
+  }
 
 /*Media*/
 
@@ -597,7 +602,12 @@ footer-heading    font-weight: 700;
         padding: 0;
     }
 
-
+#slider .caption h2 {
+        display: none;
+    }
+       .hideMe{
+    	display: flex;
+    }
 
 
     .heading h2 {
