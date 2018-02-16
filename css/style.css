@@ -1,5 +1,9 @@
 /*General*/
 
+
+
+
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -9,6 +13,21 @@ body {
     -moz-font-smoothing: antialiased;
     overflow-x: hidden;
     font-size: 16px;
+}
+
+
+
+
+#myBtn {
+    /*width: 300px;*/
+    /*padding: 10px;*/
+    font-size:20px;
+    position: absolute;
+    margin: 0 auto;
+    right: 15px;
+    left: 0;
+    /*bottom: 50px;*/
+    z-index: 0;
 }
 
 a {
@@ -69,7 +88,7 @@ textarea:focus {
 
 
 .input-group-addon {
-	background-color: #292929;
+	background-color: #009A17;
 	color: white;
 }
 
@@ -79,6 +98,8 @@ textarea:focus {
     font-weight: 600;
     width: 120px;
     height: 40px;
+    background-color: #009A17;
+    color: white;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
@@ -86,6 +107,10 @@ textarea:focus {
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
+}
+
+.btn:hover {
+    color: #E4E4E4;
 }
 
 .btn:focus {

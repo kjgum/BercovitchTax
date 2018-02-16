@@ -4,9 +4,9 @@
     $email = $_POST['email'];
     $message = $_POST['message'];
     $human = intval($_POST['human']);
-    $from = 'Demo Contact Form'; 
-    $to = 'kristinjgumbert@gmail.com'; 
-    $subject = 'Message from Contact Demo ';
+    $from = 'Contact Form'; 
+    $to = 'stephen@bercovitchtax.com'; 
+    $subject = 'Message from BercovitchTax.com';
     
     $body ="From: $name\n E-Mail: $email\n Message:\n $message";
     // Check if name has been entered
@@ -82,32 +82,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
     <body id="top" data-spy="scroll">
         <!--top header-->
-
-
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <span>upcoming event </span> 
-          <a class="text-right" id="myBtn">X</a>
-        </div>
-        <div class="modal-body">
-          <p>On Saturday, November 4th, I will have the pleasure of speaking at the New Jersey Society of CPAs, Bergen Chapter, Hudson Chapter Annual Tax Seminar.  We will be discussing changes to business and individual taxation on a national and state level.  I will be addressing some personal income tax issues raised by domicile changes and the grant and exercise of stock options.  Register today for this one-day event, and stay updated on all areas of taxation, and get the latest on state and federal tax legislation.</p>
-          <p><a href="https://www.njcpa.org/cpe/products/search/event-details?code=E1711959" target="_blank">link</a></p>
-          
-        </div>
-        
-      </div>
-      
-    
-    <!-- Trigger the modal with a button -->
-  
-  </div>
-</div>
- </div>
-
         <header id="home">
             <section class="top-nav hidden-xs">
                 <div class="container">
@@ -354,8 +328,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                         <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                                     </div>
                                     <input type="text" class="form-control" id="name" name="name" placeholder="Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+                                    </div>
                                     <?php echo "<p class='text-danger'>$errName</p>";?>
-                                </div>
+                                
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="email">Email</label>
@@ -363,20 +338,21 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                     <div class="input-group-addon">
                                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
                                     </div>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>"></div>
                                     <?php echo "<p class='text-danger'>$errEmail</p>";?>
-                                </div>
+                                
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="message">Message</label>
                                 <textarea class="form-control" rows="4" name="message">
                                     <?php echo htmlspecialchars($_POST['message']);?>
-                                </textarea>
+                                </textarea></div>
                                 <?php echo "<p class='text-danger'>$errMessage</p>";?>
-                            </div>
+                            
+                            <div class="row">
                             <div class="form-group">
                                 <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-                                <div class="col-sm-10">
+                                <div class="col-sm-4">
                                     <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
                                     <?php echo "<p class='text-danger'>$errHuman</p>";?>
                                 </div>
@@ -387,8 +363,10 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                                 <!-- <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> -->
                                 <!-- </button> -->
                             </div>
+                            </div>
+                            <br/>
                             <div class="form-group">
-                                <div class="col-sm-10 col-sm-offset-2">
+                                <div class="col-sm-8 col-sm-offset-2">
                                     <?php echo $result; ?>
                                 </div>
                             </div>
@@ -410,9 +388,19 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                     <h1 style="color: #128D15">
                         <i class="fa fa-map-marker" aria-hidden="true"></i> </h1>
                     <a href='https://www.google.com/maps/place/232+Madison+Ave,+New+York,+NY+10016/@40.7499309,-73.9840445,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259074b5d1551:0xee7286688b7d51e!8m2!3d40.7499309!4d-73.9818558' style="font-size: 16px;" target="_blank">
-                    Stephen J. Bercovitch, J.D., Bercovitch Tax Law<br/>
-                    232 Madison Avenue, 7th Floor <br/>
-                       New York, NY  10016</a>
+                        Stephen J. Bercovitch, J.D., Bercovitch Tax Law<br/>
+                            232 Madison Avenue, 7th Floor <br/>
+                            New York, NY  10016
+                   </a>
+                   <br/>
+                        <span style="border-bottom: 2px solid #008e00;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <br/><br/>
+                    <a href="https://www.google.com/maps/place/8550+Boulevard+E+%233h,+North+Bergen,+NJ+07047/@40.8018504,-73.99801,17.27z/data=!4m5!3m4!1s0x89c2f7d98bbe5d8f:0xa05313d518b29b3b!8m2!3d40.8018484!4d-73.9957885" style="font-size: 16px;" target="_blank">
+                        8550 Boulevard East #3H<br/>
+                        North Bergen, NJ 07047<br/>
+                    </a>
+
+                       
                 </div>
                 <div class="col-md-4 ">
                     <h1 style="color: #128D15">
@@ -478,7 +466,6 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
             </div>
         </div>
         <!-- jQuery -->
-
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
